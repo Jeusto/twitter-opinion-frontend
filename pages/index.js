@@ -71,7 +71,7 @@ export default function Home() {
             fontSize="6xl"
             fontWeight="700"
           >
-            Twitter's opinion
+            {`Twitter's opinion`}
           </Text>
         </Flex>
         <Text textAlign="center" fontSize="2xl">
