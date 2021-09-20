@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Twitter's opinion</title>
+        <title>{`Twitter's opinion`}</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
