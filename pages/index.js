@@ -9,7 +9,7 @@ export default function Home() {
   function getResults() {
     if (input && input.length !== 0 && input.trim()) {
       setIsFetching(true);
-      fetch(`https://twitter-opinion-backend.jeusto.repl.co/${input}`)
+      fetch(`https://api.twitteropinion.jeusto.com/${input}`)
         .then((data) => data.json())
         .then((json) => showResultsView(json));
     } else {
